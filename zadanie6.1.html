@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Colour stripes</title>
+</head>
+<style>
+    #container {
+        display: flex;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        display: flex;
+    }
+
+    .box {
+        width: 10%;
+        text-align: center;
+        font-size: 75px;
+        color: white;
+        font-weight: bold;
+        text-shadow: 2px 2px gray;
+        align-content: stretch;
+    }
+
+    .box1 {
+        background-color: pink;
+
+    }
+
+    .box2 {
+        background-color: wheat;
+        order: 1
+    }
+
+    .box3 {
+        background-color: rgb(233, 233, 233);
+        order: -1
+    }
+
+    .box4 {
+        background-color: yellow;
+
+    }
+
+    .box5 {
+        background-color: greenyellow;
+    }
+
+    .box6 {
+        background-color: aqua;
+    }
+
+    .box7 {
+        background-color: red;
+        order: 1
+    }
+
+    .box8 {
+        background-color: plum;
+
+    }
+
+    .box9 {
+        background-color: teal;
+
+    }
+
+    .box10 {
+        background-color: burlywood
+    }
+</style>
+
+<body>
+    <div id="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+        <div class="box box7">7</div>
+        <div class="box box8">8</div>
+        <div class="box box9">9</div>
+        <div class="box box10">10</div>
+    </div>
+
+</body>
+
+</html>
